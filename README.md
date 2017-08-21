@@ -1,2 +1,4 @@
-# gcis-conventions
-Reposity for the collection, management, and versioning of the GCIS data management conventions.
+# GCIS Conventions
+
+Reposity for the collection, management, and versioning of the GCIS data
+management conventions.
