@@ -2,7 +2,7 @@
 
 ## General Conventions for all GCIS Resources
 
-[Defaults](./defaults.md)
+[Defaults](./Defaults.md)
 
 ## Resource Specific Conventions
 

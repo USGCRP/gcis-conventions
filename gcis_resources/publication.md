@@ -2,6 +2,6 @@
 
 ## Identifier Convention
 
-[See default: Number](./defaults.md#Number)
+[See default: Number](./Defaults.md#Number)
 
 ## 

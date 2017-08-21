@@ -2,6 +2,6 @@
 
 ## Identifier Convention
 
-[See default: UUID](./defaults.md#uuid)
+[See default: UUID](./Defaults.md#UUID)
 
 ## 
