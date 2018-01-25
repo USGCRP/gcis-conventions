@@ -2,16 +2,78 @@
 
 ## Identifier Convention
 
-An article'd [DOI](../external_conventions/doi.md) is used as the identifier
-when it is available.  
-If the article doesn't have a DOI, we use the title, with hyphens between words, lowercase letters, no numbers.
+An article'd [DOI](../external_conventions/doi.md) is used as the identifier when it is available.  
+Acceptable fall-back identifiers we will use include PMID, PMC, and CDC MMWR.
+
+If the article doesn't have any of these external identifiers, we use the title, with hyphens between words, lowercase letters, no numbers. We do not remove any words.
 
 **Examples:**
    * for an article having the doi of [10.1002/aqc.880](http://data.globalchange.gov/article/10.1002/aqc.880)
       * http://data.globalchange.gov/article/10.1002/aqc.880
-   *  since this article doesn't have a doi, we use the title.
+   * for an article without a DOI, but has a PubMed ID of [pmid-22377962](https://data.globalchange.gov/article/pmid-22377962)
+      * https://data.globalchange.gov/article/pmid-22377962
+   *  since this article doesn't have a doi or other acceptable external identifier, we use the title.
       * http://data.globalchange.gov/article/resilience-adaptability-and-transformability-in-socialecological-systems
       * **Note:** this will be common practice for articles in law journals, which don't tend to have DOIs
 
-## 
+## Primary Field Conventions
 
+### Title
+Title should match the exact Article title
+
+### DOI
+The exact DOI, if one exists. Otherwise blank.
+
+### Year
+The year the article was published, as in the year this volume of the journal came out.
+
+### Notes
+Not In Use.  
+May be used in the future for extraordinary circumstances, i.e. journal retractions.
+
+### Journal
+Should refer to the GCIS Journal entity corresponding to the article's Journal.
+Should never be blank.
+
+### URL
+Should always be provided if we don't have a DOI.  
+Preferred to have regardless.  
+In hte case of neither a DOI nor a URL existing, may be left blank.
+
+### journal vol
+Which volume of the Journal this article was published from.  
+Sourced from crossref.org, not from the corresponding imported reference.
+
+### journal pages 
+Which pages of the journal this article occurs at.  
+Preferred to be a page range. Initial page is acceptable.  
+Sourced from crossref.org, not from the corresponding imported reference.
+
+## Provenance Conventions
+
+We relate articles to USGCRP produced publications only.  
+An article can be `cito:isCitedBy` a USGCRP publication.  
+An article can `cito:cites` a USGCRP publication.
+
+## Relationship Conventions
+
+
+### Contributors
+
+We connect Persons & Organizations to Articles with the follow conventions:
+  * Role Types
+    * author is the assumed role
+    * point of contact role is used for specified corresponding author
+    * other roles are not used unless they are called out in the article
+  * sort_order
+     * sort order should match the article's order
+     * sort order displays in ascending order (10 above 20 above 100)
+
+In cases of articles with hundreds of authors, some editors, & a point of contact. Only editors & PoC are added.
+
+### gcmd_keywords
+Not to be used at this time.
+### regions
+Not to be used at this time.
+### files
+Not used on articles
