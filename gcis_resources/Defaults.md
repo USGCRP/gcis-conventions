@@ -10,7 +10,7 @@ document the processes that led to a given research result (Mayernik, et al., 20
 
 ### Title
 
-The Resources title (or name, if no title field) is modified to become the
+The Resources title (or name, if no title field) is modified to be come the
 identifier. Spaces are replaced with `-`, and the words `"in," "and," "&",
 "on," "the," and "of"` are removed (English only). All letters are lowercased.
 
