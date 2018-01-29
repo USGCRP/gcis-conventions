@@ -38,7 +38,7 @@ Should never be blank.
 ### URL
 Should always be provided if we don't have a DOI.  
 Preferred to have regardless.  
-In hte case of neither a DOI nor a URL existing, may be left blank.
+In the case of neither a DOI nor a URL existing, may be left blank.
 
 ### journal vol
 Which volume of the Journal this article was published from.  
