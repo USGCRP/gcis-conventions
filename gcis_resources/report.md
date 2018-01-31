@@ -2,18 +2,49 @@
 
 ## Identifier Convention
 
-Distributor abbreviation-title (separated out by hyphens)-version if available-years. We aren't consistent with this approach though. If the report has an internal identifier, we use that in-lieu of years. Some examples are as follows:
+ - If the distributor website has an official identifier, we use that.  
+   - US Forest Service Report "Pacific Northwest Research Station General Technical Report 255" with internal identifier `PNW-GTR-855`
+   - `http://data.globalchange.gov/report/usfs-pnw-gtr-855` 
+ - If there is a widely accepted identifier, we use that.  
+   - USGCRP's Third National Climate Assessment is known as NCA3
+   - `http://data.globalchange.gov/report/nca3`
+ - If we have to create it: `Distributor abbreviation`-`hyphenated-title`-`version, if known, otherwise year`
+   - This is an ACWI report called "A National Framework for Ground-Water Modeling in the U.S." which was published in 2013.
+   - `http://data.globalchange.gov/report/acwi-nationalframework-2013` 
 
-  - This is a National Research Council Report which has the internal identifier "Special Report 299."
-    - `http://data.globalchange.gov/report/nrc-specialreport-299` 
-  - This is a US Forest Service Report which has the internal identifier PNW-GTR-855 (for "Pacific Northwest Research Station General Technical Report 255)
-    - `http://data.globalchange.gov/report/usfs-pnw-gtr-855` 
-  - For the report distributed by the IPCC with the internal identifier "SREX."
-    - `http://data.globalchange.gov/report/ipcc-srex` 
-  - This is an ACWI report called "A National Framework for Ground-Water Modeling in the U.S." which was published in 2013.
-    - `http://data.globalchange.gov/report/acwi-nationalframework-2013` 
-  - Exceptions to this rule, because these are well-known documents, having a colloquial identifier.
-    - `http://data.globalchange.gov/report/nca3`
-    - `http://data.globalchange.gov/report/2014car`
+## Report Type
 
-## 
+We use the type as named by the distributor.  
+Default is `report`. 
+
+## Contact Note / Email
+
+We add the email for the USGCRP reports, and notes when available.
+
+## Contributors
+
+Reports should have their contributors.  
+When possible, contributors should have the person and the organization, but Organization only is acceptable.  
+[Sort key](https://github.com/USGCRP/gcis-conventions/blob/master/gcis_resources/Defaults.md#sort-key) should be used to make the contributor order match the report.
+
+## URL, DOI, or File
+
+All reports should either have a `URL`, a `doi`, an associated `file` to download, or both.
+
+## Title
+
+Title is generally imported directly from TSU's EndNote. It should match the external title.
+
+# Indicator Conventions
+
+## Identifier
+
+Follows the [title](https://github.com/USGCRP/gcis-conventions/blob/master/gcis_resources/Defaults.md#title) process, with an added postfix of the year.
+
+## Title 
+
+Should match the published title of the Indicator, with an added prefix of `Indicator:`
+
+## URL
+
+Only the most recent year Indicator should have a URL.
