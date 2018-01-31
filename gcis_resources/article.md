@@ -65,10 +65,8 @@ We connect Persons & Organizations to Articles with the follow conventions:
     * author is the assumed role
     * point of contact role is used for specified corresponding author
     * other roles are not used unless they are called out in the article
-  * sort_order
-     * sort order should match the article's order
-     * sort order displays in ascending order (10 above 20 above 100)
-
+  * [sort key](https://github.com/USGCRP/gcis-conventions/blob/master/gcis_resources/Defaults.md#sort-key) should be used to match the article's order
+ 
 In cases of articles with hundreds of authors, some editors, & a point of contact. Only editors & PoC are added.
 
 ### gcmd_keywords
