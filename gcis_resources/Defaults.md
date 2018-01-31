@@ -25,3 +25,19 @@ unique.
 The Resource type has an incrementing number as the identifier. Unique only for
 a given resource.
 
+## Ubiquitous Fields
+
+### Introduction
+
+Some fields have the same value regardless of which resource they appear on. They are described here for simplicity.
+
+### Sort Key
+
+Items with a sort key tend to be displayed in line with others of that resource type. For example, chapters of a report or authors on an article. 
+
+Sort key is handled in ascending order. A resource with sort key 10 will apear about one with 20, which will both be above one with sort key 100.
+
+Whenever external ordering is available, it should be respected. 
+
+This value is not displayed to the end user.
+
