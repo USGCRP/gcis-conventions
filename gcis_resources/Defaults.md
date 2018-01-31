@@ -11,8 +11,9 @@ document the processes that led to a given research result (Mayernik, et al., 20
 ### Title
 
 The Resources title (or name, if no title field) is modified to be come the
-identifier. Spaces are replaced with `-`, and the words `"in," "and," "&",
-"on," "the," and "of"` are removed (English only). All letters are lowercased.
+identifier. Spaces are replaced with `-`. All letters are lowercased.
+
+An older convention removed the words `in`, `and`, `&`, `on`, `the`, and `of` from titles. This is no longer preferred.
 
 ### UUID
 
