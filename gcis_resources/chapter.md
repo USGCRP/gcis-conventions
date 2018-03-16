@@ -78,6 +78,7 @@ We are generally only concerned with `cito:CitedBy` when it is citations by a fu
 
 ### Published Stand-alone Chapters
    
-   - What to do for report chapters that are also available as separately published reports (i.e. CSSR ch Executive Summary & The CSSR Executive Summary PDF), that also specify distinct citaitons?
+   - What to do for report chapters that are also available as separately published reports (i.e. CSSR ch Executive Summary & The CSSR Executive Summary PDF), **that also specify distinct citations**?
        - should we have both publications (chapter version & report version) in gcis?
        - should both have a DOI, and should they be distinct?
+       - Discussion Issue [#19](https://github.com/USGCRP/gcis-conventions/issues/19)
