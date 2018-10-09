@@ -5,9 +5,9 @@
 Web pages are brought in via citations but Reports, Figures, Images, etc.  
 Web tools are categorized as web pages.  
 
-Distinguishing Webpages from Datasets:
+### Distinguishing Webpages from Datasets
 
-  - TODO [#18](https://github.com/USGCRP/gcis-conventions/issues/18)
+After web page type references are imported, a QA should be done before production release to check if any would be better categorized as datasets.
 
 ## Field Conventions
 
