@@ -6,10 +6,10 @@ management conventions.
 
 ## Sections
 
-[GCIS resources](https://github.com/USGCRP/gcis-conventions/tree/master/gcis_resources/README.md)  
+[GCIS resources](gcis_resources)  
 The conventions we have created for the GCIS resources, such as Reports or Figures.  
 
-[External Conventions](https://github.com/USGCRP/gcis-conventions/tree/master/external_conventions/README.md)  
+[External Conventions](external_conventions)  
 How we use external identifiers, such as DOIs or UUIDs.  
 
 Metadata Standards  
