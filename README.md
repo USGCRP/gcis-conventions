@@ -6,17 +6,17 @@ management conventions.
 
 ## Sections
 
-[gcis_resources](https://github.com/USGCRP/gcis-conventions/tree/master/gcis_resources)  
+[GCIS resources](https://github.com/USGCRP/gcis-conventions/tree/master/gcis_resources)  
 The conventions we have created for the GCIS resources, such as Reports or Figures.  
 
-[external_conventions](https://github.com/USGCRP/gcis-conventions/tree/master/external_conventions)  
+[External Conventions](https://github.com/USGCRP/gcis-conventions/tree/master/external_conventions)  
 How we use external identifiers, such as DOIs or UUIDs.  
 
-[metadata_standards](https://github.com/USGCRP/gcis-conventions/tree/master/metadata_standards)  
-What standards we adhere to and how. Nothing yet documented.
+[Metadata Standards](https://github.com/USGCRP/gcis-conventions/tree/master/metadata_standards)  
+What standards we adhere to and how. _Nothing yet documented._
 
-[research_methods](https://github.com/USGCRP/gcis-conventions/tree/master/research_methods)  
-How we research various entities. Nothing yet documented.
+[Research Methods](https://github.com/USGCRP/gcis-conventions/tree/master/research_methods)  
+How we research various entities. _Nothing yet documented._
 
-[semantic](https://github.com/USGCRP/gcis-conventions/tree/master/semantic)  
-How we use Semantic Web Technology. Nothing yet documented.
+[Semantic Web](https://github.com/USGCRP/gcis-conventions/tree/master/semantic)  
+How we use Semantic Web Technology. _Nothing yet documented._
