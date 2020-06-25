@@ -1,4 +1,4 @@
-# The Global Change Information System: an overview of its Data Model and Metadata Conventions
+# The Global Change Information System: an overview of its Data Model and Metadata Conventions v1.0
 
 ## Introduction
 
