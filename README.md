@@ -21,7 +21,7 @@ How we use external identifiers, such as DOIs or UUIDs.
 [Metadata Standards](metadata_standards)  
 What standards we adhere to and how.
 
-Data Model  
+[Data Model](data_model)  
 GCIS data structure, entities and relationships. 
 
 Semantic Web  
