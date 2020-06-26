@@ -3,7 +3,6 @@
 ## Identifier Conventions
 
 ### Introduction  
-To better provide authoritative, accessible, usable, and timely information, GCIS resources need to be traceable and transparent (ref: IQA).
 Assigning citable, unique and persistent identifiers to information held within the GCIS greatly increases the transparency and traceability of that
 information as well as addressing a growing trend within the Federal research community: requiring researchers to formally cite the data and
 document the processes that led to a given research result (Mayernik, et al., 2012).
