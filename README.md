@@ -21,7 +21,7 @@ How we use external identifiers, such as DOIs or UUIDs.
 [Metadata Standards](metadata_standards)  
 What standards we adhere to and how.
 
-[Research Methods](research_methods)
+[Research Methods](research_methods)  
 How we research various entities. 
 
 Semantic Web  
