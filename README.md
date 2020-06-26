@@ -18,7 +18,7 @@ The conventions we have created for the GCIS resources, such as Reports or Figur
 [External Conventions](external_conventions)  
 How we use external identifiers, such as DOIs or UUIDs.  
 
-Metadata Standards  
+[Metadata Standards](metadata_standards)  
 What standards we adhere to and how. _Nothing yet documented._
 
 Research Methods  
