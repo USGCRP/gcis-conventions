@@ -19,10 +19,10 @@ The conventions we have created for the GCIS resources, such as Reports or Figur
 How we use external identifiers, such as DOIs or UUIDs.  
 
 [Metadata Standards](metadata_standards)  
-What standards we adhere to and how. _Nothing yet documented._
+What standards we adhere to and how.
 
-Research Methods  
-How we research various entities. _Nothing yet documented._
+[Research Methods](research_methods)
+How we research various entities. 
 
 Semantic Web  
 How we use Semantic Web Technology. _Nothing yet documented._
