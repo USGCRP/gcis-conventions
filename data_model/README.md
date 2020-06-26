@@ -36,4 +36,26 @@ The terminology below describes the resources represented in the GCIS :
 
 Climate Science is a complex discipline. Given the amount of data generation and data processing involved, and the use of climate science data in critical decision making, traceable provenance becomes invaluable. The GCIS adopts both a relational model and a semantic model, to maintain traceable provenance for the resources it catalogs. 
 
+![Figure 1](https://github.com/USGCRP/gcis-conventions/blob/v1.0.1/data_model/image2.png) 
+
+**Figure 1**: The GCIS “traceable accounts” model. Each step in this chain is an additional layer of reproducibility, but also a significant increase in the difficulty of capturing and curating.
+
+
+### Relational Model:
+The relational model used by GCIS captures one-to-many, many-to-many, and many-to-one relationships between the resources listed above. Journals have many articles, reports have many figures, findings, tables, and chapters. The relationship between images and figures, is many-to-many, as is the relationship between resources or publications of any type  and contributors. 
+
+![Figure 2](https://github.com/USGCRP/gcis-conventions/blob/v1.0.1/data_model/image5.png)
+**Figure 2**: A representation of the GCIS relational model.
+
+### Semantic Model:
+
+Resources may also be related to each other, and in this case, the relationship between two resources can be annotated with a term from a semantic vocabulary. Furthermore, the relationship may have an “activity” associated with it. All GCIS resources have representations in Turtle (a semantic format for storing data). The GCIS vocabulary is defined in the GCIS ontology. Many other ontologies are used including, most notably PROV. The entity-activity-agent model of PROV has been applied to the GCIS through the use of resources, activities, and contributors.
+
+![Figure 3](https://github.com/USGCRP/gcis-conventions/blob/v1.0.1/data_model/image31.png)
+
+**Figure 3**: A representation of the GCIS semantic model. 
+
+As illustrated above, the GCIS data model leverages widely recognized conventions and standards. Almost every GCIS resource conforms to existing international standards. However, in unique instances where established conventions are non-existent, the GCIS team develops its own conventions.
+
+
 
