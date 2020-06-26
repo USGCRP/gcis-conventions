@@ -21,8 +21,8 @@ How we use external identifiers, such as DOIs or UUIDs.
 [Metadata Standards](metadata_standards)  
 What standards we adhere to and how.
 
-[Research Methods](research_methods)  
-How we research various entities. 
+Data Model  
+GCIS data structure, entities and relationships. 
 
 Semantic Web  
 How we use Semantic Web Technology. _Nothing yet documented._
