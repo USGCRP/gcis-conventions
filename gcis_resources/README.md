@@ -1,10 +1,14 @@
 # GCIS Resources Conventions
 
+To better provide authoritative, accessible, usable, and timely information, GCIS resources need to be traceable and transparent (ref: IQA). There are several resource types in the GCIS, each with an associated field convention, provenance convention, relationship convention, and research method. These conventions could be “default”, or “resource-specific”.
+
+
 ## General Conventions for all GCIS Resources
 
 [Defaults](./Defaults.md)
 
 ## Resource Specific Conventions
+The conventions, together with the use case and research method associated with each GCIS resource type, is discussed below.
 
 [Activity](./activity.md)
 
