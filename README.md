@@ -12,6 +12,9 @@ Given this brief description of the GCIS, it is imperative that the system make 
 
 ## Sections
 
+[GCIS Data Model](data_model)  
+GCIS data structure, entities and relationships. 
+
 [GCIS resources](gcis_resources)  
 The conventions we have created for the GCIS resources, such as Reports or Figures.  
 
@@ -20,9 +23,6 @@ How we use external identifiers, such as DOIs or UUIDs.
 
 [Metadata Standards](metadata_standards)  
 What standards we adhere to and how.
-
-[Data Model](data_model)  
-GCIS data structure, entities and relationships. 
 
 Semantic Web  
 How we use Semantic Web Technology. _Nothing yet documented._
