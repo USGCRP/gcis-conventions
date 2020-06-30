@@ -12,7 +12,7 @@ Given this brief description of the GCIS, it is imperative that the system make 
 
 ## Sections
 
-[Data Model](data_model)  
+[GCIS Data Model](data_model)  
 GCIS data structure, entities and relationships. 
 
 [GCIS resources](gcis_resources)  
