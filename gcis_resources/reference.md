@@ -2,11 +2,10 @@
 
 ## Appropriate Use Case
 
-References are created for USGCRP assessments.  
-They are converted from EndNote references handled by external users (usually TSU).  
-We will support other entitiy's reports in GCIS having references if they provide properly formatted EndNotes.
-
-References may or may not be evergreen, depending on the base type of the cited publication.  
+- References are created for USGCRP assessments.  
+- They are converted from EndNote references handled by external users (usually TSU).  
+- We will support other entitiy's reports in GCIS having references if they provide properly formatted EndNotes.
+- References may or may not be evergreen, depending on the base type of the cited publication.  
 e.g. A published Article or Report is probably evergreen, but a website definitely isn't.  
 
 **TODO**: Discuss more with TSU to coordinate non-evergreen reference types, and how to make sure they get distinct references per report.
@@ -36,9 +35,8 @@ None
 
 **Publication**
 
-All references should have a parent publication, or they are considered Orphans without a purpose.
-
-Reference child publications should be filled in as time allows with a goal of 100%.  
+- All references should have a parent publication, or they are considered Orphans without a purpose.
+- Reference child publications should be filled in as time allows with a goal of 100%.  
 Many references may point to the same child publication, but only for non-evergreen publications or other exceptions as determined. Evergreen publications should only have one reference for which they are the child publication.  
 Child publication types of Article, Report, and Book can be done automatically. The rest are handled manually.  
 
