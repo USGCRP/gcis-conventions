@@ -10,52 +10,18 @@ Dataset has many extraneous or problamatic fields. Create with caution.
 
 ### Valid Fields
 
-**identifier**
-
-   - an external ID is preferred *if sufficiently unique*.
-       - Data.gov is preferred as an external ID
-       - DOI is also acceptable.
-       - identifier must be unique for *this version* of the dataset
-   - if no acceptable external ID, `org_name` + `dataset_name` + `version`
-       - In version, `.` become `_`
-   - if no version, `org_name` + `dataset_name` + `publication_year`
-
-**name**
-
-   - Use the same name as the external source.
-
-**version**
-
-   - The external version, if any. Follows their convention.
-
-**description**
-
-   - Any available description from the landing page or website of organization. May be shortened.
-
-**native_id**
-
-   - The external id, if any.
-   - The identifier for this dataset given by the producer or archive for the dataset.
-
-**url**
-
-   - A URL for a landing page. Probably can't be guaranteed unique.
-
-**doi**
-
-   - The DOI for this dataset, if any. Probably can't be guaranteed unique.
-
-**release_dt**
-
-   - The date on which this version of this dataset was released.
-
-**publication_year**
-
-   - The date on which this dataset was initially published, regardless of version.
-
-**description_attribution**
-
-   - A URL which contains the description of this dataset given in the description field. If same as URL, duplicate URL here.
+| Field | Description |
+|-------|------------- | 
+|**identifier**|<li> An external ID is preferred *if sufficiently unique*.<li> Data.gov is preferred as an external ID.<li> DOI is also acceptable.<li> Identifier must be unique for *this version* of the dataset.<li> If no acceptable external ID, `org_name` + `dataset_name` + `version`<li> In version, `.` become `_`<li> If no version, `org_name` + `dataset_name` + `publication_year`
+|**name**| <li> Use the same name as the external source.|
+|**version**|<li>The external version, if any. Follows their convention.|
+|**description**|<li> Any available description from the landing page or website of organization. May be shortened.|
+|**native_id**|<li> The external id, if any. <li> The identifier for this dataset given by the producer or archive for the dataset.|
+|**url**|<li> A URL for a landing page. Probably can't be guaranteed unique.||
+|**doi**|<li>The DOI for this dataset, if any. Probably can't be guaranteed unique.|
+|**release_dt**|<li> The date on which this version of this dataset was released.|
+|**publication_year**|<li> The date on which this dataset was initially published, regardless of version.|
+|**description_attribution**|<li> A URL which contains the description of this dataset given in the description field. If same as URL, duplicate URL here.|
 
 
 ### Soft Deprecated Fields
