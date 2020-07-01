@@ -1,5 +1,9 @@
 # Person Conventions
 
+## Appropriate Use Case: 
+
+This resource represents contributors to a particular product in GCIS (for example, an Article or Report). Each person in GCIS is represented by a unique number that serves as the identifier.
+
 ## Identifier Convention
 
 [See default: Number](./Defaults.md#Number)
@@ -38,4 +42,12 @@ Created automatically.
     + It is advisable to use the most up to date website if possible.  e.g. if someone has a website on one university's server from his/her graduate school days and one from a subsequent research appointment, use that from the research appointment.
     + Think of it this way: if I wanted to advertise my official website next to my e-mail address on a business card, what would I use beside social media websites, researchgate, academia.edu, and linkedin?
     + Update if necessary but don't go out of one's way to locate all not working URLs.
+    
+## Provenance Conventions:
+None
+
+## Relationship Conventions:
+None
+
+
 
