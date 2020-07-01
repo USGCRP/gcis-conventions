@@ -1,5 +1,6 @@
 # Organization Conventions
-
+## Appropriate Use Case: 
+Organization objects capture the affiliations of “people” in GCIS. Ideally, each “person” in GCIS should have an affiliation. Having affiliations in GCIS improves provenance tracing.
 ## Identifier Convention
 
 [See default: Title](./Defaults.md#Title)
@@ -16,8 +17,6 @@ To denote divisions or offices within a larger entity, begin with the larger ent
     * `http://data.globalchange.gov/organization/us-forest-service-pacific-northwest-research-station`
   * NOAA  
     * `http://data.globalchange.gov/organization/national-oceanic-atmospheric-administration`
-
-## Adding Organizations to GCIS
 
 # Adding organizations to GCIS
 * identifier: see page called Identifier conventions
