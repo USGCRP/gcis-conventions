@@ -12,11 +12,11 @@ Acceptable fall-back identifiers we will use include [PMID](https://www.ncbi.nlm
 If the article doesn't have any of these external identifiers, we use the title, with hyphens between words, lowercase letters, no numbers. We do not remove any words.
 
 **Examples:**
-   * for an article having the doi of [10.1002/aqc.880](http://data.globalchange.gov/article/10.1002/aqc.880)
+   * For an article having the doi of [10.1002/aqc.880](http://data.globalchange.gov/article/10.1002/aqc.880)
       * http://data.globalchange.gov/article/10.1002/aqc.880
-   * for an article without a DOI, but has a PubMed ID of [pmid-22377962](https://data.globalchange.gov/article/pmid-22377962)
+   * For an article without a DOI, but has a PubMed ID of [pmid-22377962](https://data.globalchange.gov/article/pmid-22377962)
       * https://data.globalchange.gov/article/pmid-22377962
-   *  since this article doesn't have a doi or other acceptable external identifier, we use the title.
+   * Since this article doesn't have a doi or other acceptable external identifier, we use the title.
       * http://data.globalchange.gov/article/resilience-adaptability-and-transformability-in-socialecological-systems
       * **Note:** this will be common practice for articles in law journals, which don't tend to have DOIs
 
