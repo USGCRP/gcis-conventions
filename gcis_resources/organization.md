@@ -12,26 +12,30 @@ To denote divisions or offices within a larger entity, begin with the larger ent
   * "Duke University Nicholas School of the Environment" or "Nicholas School of the Environment at Duke University"
     * `https://data.globalchange.gov/organization/duke-university-nicholas-school-environment`
   * "The Office of Air and Radiation in the EPA" or "EPA's Air and Radiation Office"
-    * `http://data.globalchange.gov/organization/us-environmental-protection-agency-office-air-radiation for`
+    * `https://data.globalchange.gov/organization/us-environmental-protection-agency-office-air-radiation for`
   * "the Pacific Northwest Research Station" or "USFS Pacific Northwest Research Station"
-    * `http://data.globalchange.gov/organization/us-forest-service-pacific-northwest-research-station`
+    * `https://data.globalchange.gov/organization/us-forest-service-pacific-northwest-research-station`
   * NOAA  
-    * `http://data.globalchange.gov/organization/national-oceanic-atmospheric-administration`
+    * `https://data.globalchange.gov/organization/national-oceanic-atmospheric-administration`
 
 # Adding organizations to GCIS
-* identifier: see page called Identifier conventions
-* name: spell out entire organization name, e.g. "National Oceanic and Atmospheric Administration."  Use official name where at all possible, even where it may differ from the entry in a publication.  e.g.,
-   * University of Maryland, College Park                             # for the University of Maryland (only if referring to main campus)
-   * Indiana University Bloomington                                      # for "University of Indiana" or "Indiana University" (for main Bloomington campus only)
-   * The University of Arizona                                               # for "University of Arizona#" or "Arizona University."
-   * National Oceanic and Atmospheric Administration        for NOAA
-   * U.S. Environmental Protection Agency Office of Water  # for EPA Office of Water, EPA's Office of Water, or US EPA Water Office
-   * Stinger Ghaffarian Technologies                                     # for SGT, Inc.
-   * Science Systems and Applications, Inc.                          # for SSAI
-   * Virginia Polytechnic and State University                         # for Virginia Tech
-   * Georgia Institute of Technology                                       # for Georgia Tech
-   * University of California, Los Angeles                               # for UCLA, or "University of California Los Angeles"
-* organization type:
+**identifier**: 
+   * See [Identifier conventions](https://github.com/USGCRP/gcis-conventions/blob/v1.0.1/gcis_resources/organization.md#identifier-convention) 
+   
+**name**: 
+Spell out entire organization name, e.g. "National Oceanic and Atmospheric Administration."  Use official name where at all possible, even where it may differ from the entry in a publication.  e.g.,
+   * `University of Maryland, College Park` for the University of Maryland (only if referring to main campus)
+   * `Indiana University Bloomington` for "University of Indiana" or "Indiana University" (for main Bloomington campus only)
+   * `The University of Arizona` for "University of Arizona" or "Arizona University"
+   * `National Oceanic and Atmospheric Administration` for NOAA
+   * `U.S. Environmental Protection Agency Office of Water` for `EPA Office of Water`, `EPA's Office of Water`, or `US EPA Water Office`
+   * `Stinger Ghaffarian Technologies`  for SGT, Inc.
+   * `Science Systems and Applications, Inc. ` for SSAI
+   * `Virginia Polytechnic and State University`for Virginia Tech
+   * `Georgia Institute of Technology` for Georgia Tech
+   * `University of California, Los Angeles` for UCLA, or "University of California Los Angeles" 
+   
+**organization type**:
    * "academic" = degree-granting e.g. a university or department
    * "research" = non-degree granting research e.g. a university research center, consulting group, etc.
    * "city" = self-explanatory, e.g. a municipality's water department
@@ -68,7 +72,7 @@ To denote divisions or offices within a larger entity, begin with the larger ent
    * And finally, if in doubt, check the organization's webpage to see how it defines itself,  Wikipedia is also very helpful.
    * url = the URL of the agency (see At which level do we denote organizations?).  
    * Recall that if the organization name has changed, we leave this field blank.
-   * Also begin the URL with "http://" or "http://www.", never with just "www."
+   * Also begin the URL with "https://" or "https://www.", never with just "www."
    * Don't forget to relate an org with others, if applicable, using the information in the "related organization" box under the "contributors" tab.
 
 
@@ -76,24 +80,23 @@ To denote divisions or offices within a larger entity, begin with the larger ent
 ###  At which level do we denote organizations? 
 
 A frequently discussed question pertains to the level at which we denote organizations. Examples include the level of university departments, research groups, Federal agencies, line offices therein, laboratories, etc. Although we aren't consistent, we try to maintain the following conventions:
-* **Universities:** capture departments and colleges if provided
-* **Agencies:** Capture offices, major divisions, and laboratories. Examples: http://data.globalchange.gov/organization/us-environmental-protection-agency-office-air-radiation is one of the main divisions of EPA: http://data.globalchange.gov/organization/national-center-environmental-assessment is an entity within the Office of Air and Radiation.
-  * However, we don't go more specific with EPA items.
-  * We also include affiliations that authors of papers frequently use in their manuscripts even if they don't seem to follow our specific pattern:
-  * For NOAA: http://data.globalchange.gov/organization/earth-system-research-laboratory   
-      http://data.globalchange.gov/organization/national-oceanic-atmospheric-administration-national-environmental-satellite-data-information-service  
-      http://data.globalchange.gov/organization/noaa-national-climatic-data-center  
-  * For the US Forest Service, we stop at the level of the research station, not its underlying field station:http://data.globalchange.gov/organization/us-forest-service-northern-research-station
-  * For the USDA Agricultural Research System, we include underlying laboratories
-  * Due to various complicated reoganizations that could greatly complicate affiliation tracing, we do not get more specific than NASA flight centers. e.g. http://data.globalchange.gov/organization/goddard-space-flight-center and not any "Goddard Space Flight Center Cryospheric Laboratory."  
-* This can get complicated though. An affiliation listed as "US Geological Survey, Menlo Park" should be listed in USGS as "US Geological Survey." However, if the affiliation is listed as "US Geological Survey Menlo Park Science Center," the affiliation should be written as
+   * **Universities:** capture departments and colleges if provided
+   * **Agencies:** Capture offices, major divisions, and laboratories. Examples: `http://data.globalchange.gov/organization/us-environmental-protection-agency-office-air-radiation` is one of the main divisions of EPA: `https://data.globalchange.gov/organization/national-center-environmental-assessment` is an entity within the Office of Air and Radiation.
+   * However, we don't go more specific with EPA items.
+   * We also include affiliations that authors of papers frequently use in their manuscripts even if they don't seem to follow our specific pattern:
+   * For NOAA: `https://data.globalchange.gov/organization/earth-system-research-laboratory`,   
+      `https://data.globalchange.gov/organization/national-oceanic-atmospheric-administration-national-environmental-satellite-data-information-service`, 
+      `https://data.globalchange.gov/organization/noaa-national-climatic-data-center` 
+   * For the US Forest Service, we stop at the level of the research station, not its underlying field station:`https://data.globalchange.gov/organization/us-forest-service-northern-research-station`
+   * For the USDA Agricultural Research System, we include underlying laboratories
+   * Due to various complicated reoganizations that could greatly complicate affiliation tracing, we do not get more specific than NASA flight centers. e.g. `http://data.globalchange.gov/organization/goddard-space-flight-center` and not any "Goddard Space Flight Center Cryospheric Laboratory."  
+   * This can get complicated though. An affiliation listed as "US Geological Survey, Menlo Park" should be listed in USGS as "US Geological Survey." However, if the affiliation is listed as "US Geological Survey Menlo Park Science Center," the affiliation should be written as
 such and then related accordingly within the USGS hierarchy. This pattern holds for other agencies.
-* And finally, we may break this pattern and get more specific in order to match datasets with those in data.gov.  
+   * And finally, we may break this pattern and get more specific in order to match datasets with those in data.gov.  
 
 _**The trick? Remember that we are capturing affiliations, not necessarily employers.**_ This comes into play with entities like the EROS Data Center. Papers with authors having that affiliation do not always list whether the person is a USGS employee. As such, we go by whatever is written.  
 
-A good way to study this is to look at the page for an organization such as the http://data.globalchange.gov/organization/us-environmental-protect
-ion-agency and look the nature of the orgs listed.   
+A good way to study this is to look at the page for an organization such as the `https://data.globalchange.gov/organization/us-environmental-protection-agency` and look the nature of the orgs listed.   
 
 Also, note the nature of various related organizations, such as those that are "predecessor of," "division of," etc. When entering an org, one should always check to see if one can relate to other orgs, even if that involves creating an intermediate org.   
 
@@ -106,7 +109,7 @@ Also, if an org is a predecessor of another org:
 
 **Note:** an org is considered to be the predecessor of another even if the org's name is the only characteristic that changes (i.e., mission etc.
 remain the same).  
-**Example:** http://data.globalchange.gov/organization/us-climate-change-science-program  
+**Example:** `https://data.globalchange.gov/organization/us-climate-change-science-program` 
 
 _**Since we tie people and organizations with publications, we use what is mentioned in the publication**_ even if it has changed. For example, we keep "National Climatic Data Center" even though it is now the "National Centers for Environmental Information." Since it was NCDC at the time of the publication, we keep it as such and employ the methodology used above. As such, if a webpage URL is the same as that in a previous publication but now includes the "National Centers for Environmental Information" banner, we use NCDC in-lieu of NCEI if that is what the author would have seen at the time it was cited.  
 One last thing - if an organization relationship changes, do not revise.  Simply update with the new relationship, keeping the older one.
