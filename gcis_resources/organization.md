@@ -113,51 +113,6 @@ remain the same).
 
 _**Since we tie people and organizations with publications, we use what is mentioned in the publication**_ even if it has changed. For example, we keep "National Climatic Data Center" even though it is now the "National Centers for Environmental Information." Since it was NCDC at the time of the publication, we keep it as such and employ the methodology used above. As such, if a webpage URL is the same as that in a previous publication but now includes the "National Centers for Environmental Information" banner, we use NCDC in-lieu of NCEI if that is what the author would have seen at the time it was cited.  
 
-* identifier: see page called Identifier conventions
-* name: spell out entire organization name, e.g. "National Oceanic and Atmospheric Administration."  Use official name where at all possible, even where it may differ from the entry in a publication.  e.g.,
-* University of Maryland, College Park                             # for the University of Maryland (only if referring to main campus)
-* Indiana University Bloomington                                      # for "University of Indiana" or "Indiana University" (for main Bloomington campus only)
-* The University of Arizona                                               # for "University of Arizona#" or "Arizona University."
-* National Oceanic and Atmospheric Administration# for NOAA
-* U.S. Environmental Protection Agency Office of Water  # for EPA Office of Water, EPA's Office of Water, or US EPA Water Office
-* organization type:
-  * "academic" = degree-granting e.g. a university or department
-  * "research" = non-degree granting research e.g. a university research center, consulting group, etc.
-  * "city" = self-explanatory, e.g. a municipality's water department
-  * "commercial" = profit company
-  * "consortium" - self-explanatory.  Examples include the University Corporation for Atmospheric Research
-  * "county" - self-explanatory
-  * "federal" - self-explanatory
-  * "federal - managed academic" - a Federal program managed by an academic entity.  Many DOE National Laboratories are examples as they are run by the University of California System.
-  * "federal - managed private" - a Federal office managed by a private company, usually a contractor.  The USGCRP NCO is one-such example, although USGCRP proper is simply "Federal."
-  * "federal corporation" - don't know
-  * "Federally funded Research and Development Center" - see https://en.wikipedia.org/wiki/Federally_funded_research_and_development_centers for a good explanation  Note that this term is an official one.
-  * "foundation" - self-explanatory
-  * "independent_scholar" = If someone authors a paper on his or her own (i.e., not on behalf of any company), then the org type is "independent_scholar."  E.g. "John Smith," retired from NOAA, would be entered into GCIS as name: John Smith; organization: John Smith, with an organization type independent_scholar
-  * "intergovernmental" - self-explanatory
-  * "International" - self-explanatory but not one that is intergovernmental
-  * "municipal" - we don't use this much, but we could conceivably replace "city" with municipal" with a simple database patch
-  * "national" - for the equivalent of Federal organizations but for which are outside the US.  Example: "UK Environment Agency" is the British equivalent of our EPA.
-  * "ngo" - An official non-governmental organization, such as Greenpeace
-  * "non-profit" - A 501c(3) or other non-profit company, e.g. the American Red Cross
-  * "private" - somewhat overlaps everything.  The National Academy of Sciences is an example.
-  * "Professional society/organization" - self-explanatory.  e.g., the American Psychological Association, the American Geophysical Union
-  * regional - e.g. metropolitan planning districts, transit authorities, utility authorities administered by states, interstate councils.  Examples in GCIS include the Western Governor's Association and the South Florida Water Management District.
-  * "state" - self explanatory.
-  * "State/housed within academic" - examples include various state climatologist offices and state geological agencies which often have a strong affiliation with both the state and university.
-  * "territory" - e.g., American Samoa
-  * "tribal" - refers to Native American or other indigeneous peoples            
-  * **Important Caveats:**
-    * Very often, an organization can fall into many of these categories.  One can have international research organizations, etc.  Most universities are also non-profit.  In contrast to the US, many universities and companies worldwide are in effect national.  Free to revise the category list as it was developed organically. 
-    * GCIS has examples of Canadian provincial organizations, which don't map well into our model.  Suggest adding "provincial" or modifying "state" to read "state or provincial."
-    * A revisiting of the organizations that fall into each of these categories (a simple SPARQL query will do it) may be wise to ensure consistency.
-    * "Regional" is used on a sub-national scale.  Otherwise such organizations would be "international."
-    * This field may be left blank.
-    * And finally, if in doubt, check the organization's webpage to see how it defines itself,  Wikipedia is also very helpful.
-* url = the URL of the agency (see At which level do we denote organizations?).  
-  * Recall that if the organization name has changed, we leave this field blank.
-  * Also begin the URL with "http://" or "http://www.", never with just "www."
-* Don't forget to relate an org with others, if applicable, using the information in the "related organization" box under the "contributors" tab.
 
 ###  At which level do we denote organizations? 
 
