@@ -18,9 +18,9 @@ Chapters are created for USGCRP Products and for external report that are being 
 
 ## Provenance Conventions
 
-Chapters use `cito:CitedBy` and `cito:Cites`.  
-Chapters should be created with their internal citations as `cito:Cites`  
-We are generally only concerned with `cito:CitedBy` when it is citations by a future USGCRP product. We do not try to proactively find external citations.  
+- Chapters use `cito:CitedBy` and `cito:Cites`.  
+- Chapters should be created with their internal citations as `cito:Cites`  
+- We are generally only concerned with `cito:CitedBy` when it is citations by a future USGCRP product. We do not try to proactively find external citations.  
 
 ## Relationship Conventions
 
