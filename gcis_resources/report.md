@@ -1,5 +1,8 @@
 # Report Conventions
 
+## Appropriate Use Case: 
+Publications, both external publications (not published by USGCRP) and USGCRP publications, that have officially been released as reports, and that need to be uploaded to the GCIS database, are created as reports in the GCIS.
+
 ## Identifier Convention
 
  - If the distributor website has an official identifier, we use that.  
@@ -23,9 +26,9 @@ We add the email for the USGCRP reports, and notes when available.
 
 ## Contributors
 
-Reports should have their contributors.  
-When possible, contributors should have the person and the organization, but Organization only is acceptable.  
-[Sort key](https://github.com/USGCRP/gcis-conventions/blob/master/gcis_resources/Defaults.md#sort-key) should be used to make the contributor order match the report.
+- Reports should have their contributors.  
+- When possible, contributors should have the person and the organization, but Organization only is acceptable.  
+- [Sort key](https://github.com/USGCRP/gcis-conventions/blob/master/gcis_resources/Defaults.md#sort-key) should be used to make the contributor order match the report.
 
 ## URL, DOI, or File
 
@@ -34,6 +37,12 @@ All reports should either have a `URL`, a `doi`, an associated `file` to downloa
 ## Title
 
 Title is generally imported directly from TSU's EndNote. It should match the external title.
+
+## Provenance Conventions:
+- cito:cites
+- cito:isCitedBy
+- prov:wasDerivedFrom
+- prov:wasInformedBy
 
 # Indicator Conventions
 
@@ -48,3 +57,9 @@ Should match the published title of the Indicator, with an added prefix of `Indi
 ## URL
 
 Only the most recent year Indicator should have a URL.
+
+
+
+
+             
+
