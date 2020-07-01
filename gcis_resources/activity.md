@@ -19,7 +19,7 @@ We do not create them for non-USGCRP products.
 |**visualization_methodology**|  The process of creating the visual portion of the output object, if any and if distinguished from the main methodology.|
 |**methodology_citation**|  The citation to the methodology, if it has been published.|
 |**methodology_contact**|  The point of contact for the methodology, if any.|
-|**activity_duration**|  [Valid Interval Formats](https://www.postgresql.org/docs/9.6/static/datatype-datetime.html#DATATYPE-INTERVAL-INPUT-EXAMPLES)Captures the time taken in the process to get from the source object to the final one.|
+|**activity_duration**|  [Valid Interval Formats](https://www.postgresql.org/docs/9.6/static/datatype-datetime.html#DATATYPE-INTERVAL-INPUT-EXAMPLES). Captures the time taken in the process to get from the source object to the final one.|
 |**source_access_date** | The date the parent resource was accessed.|
 |**source_modifications**|A written description of modifications done to the source object.|
 |**modified_source_location**|  The location of the modified source, if available.|
@@ -32,9 +32,9 @@ We do not create them for non-USGCRP products.
 |**end_time**  |Time bounds used to restrict the input object. Optional, depending on applicability. If equal to start_time, indicates a temporal moment.|
 |**dataset_variables**  |A list of Dataset Variables applied in this activity.|
 |**spatial_extent**  |Spatial bounds used to restrict the input object. GeoJSON. Optional, depending on applicability.|
-|**data_usage**  |**DEPRECATED** |A description of the way in which input data were used for this activity.|
-|**notes** |**DEPRECATED**  Other information about this activity which might be useful for traceability or reproducability.|
-|**duration**  |**DEPRECATED**  use activity_duration to document the time taken to perform the activity.|
+|**data_usage**  |**DEPRECATED**.  A description of the way in which input data were used for this activity.|
+|**notes** |**DEPRECATED**.  Other information about this activity which might be useful for traceability or reproducability.|
+|**duration**  |**DEPRECATED**.  Use activity_duration to document the time taken to perform the activity.
 
 
 ## Provenance Conventions: 

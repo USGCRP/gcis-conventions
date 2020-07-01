@@ -2,8 +2,8 @@
 
 ## Appropriate Web Page Use Case
 
-Web pages are brought in via citations but Reports, Figures, Images, etc.  
-Web tools are categorized as web pages.  
+- Web pages are brought in via citations but Reports, Figures, Images, etc.  
+- Web tools are categorized as web pages.  
 
 ### Distinguishing Webpages from Datasets
 
@@ -32,8 +32,8 @@ After web page type references are imported, a QA should be done before producti
 
 ## Provenance Conventions
 
-Webpages are valid to be `cito:CitedBy`, usually by Figures or Images.  
-They do not use `cito:Cites`, as they are not USGCRP products.  
+- Webpages are valid to be `cito:CitedBy`, usually by Figures or Images.  
+- They do not use `cito:Cites`, as they are not USGCRP products.  
 
 ## Relationship Conventions
 

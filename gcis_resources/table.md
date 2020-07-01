@@ -2,10 +2,10 @@
 
 ## Appropriate Use Case
 
-The high level representation of array data.  
-They represent the Table objects in Reports.  
-We only create them for USGCRP publications.  
-We create them by hand.  
+- The high level representation of array data.  
+- They represent the Table objects in Reports.  
+- We only create them for USGCRP publications.  
+- We create them by hand.  
 
 ## Field Conventions
 
