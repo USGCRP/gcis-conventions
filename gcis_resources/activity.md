@@ -12,6 +12,7 @@ i.e.
 We do not create them for non-USGCRP products.
 
 ## Field Conventions:
+
 | Field | Description |
 |-------|------------- | 
 |**identifier**|  The format of the activity identifier going forward should follow the template: "`report_identifier`-`UUID`-`activity`". We may go back and update non-compliant activities, but it is not a priority.|
