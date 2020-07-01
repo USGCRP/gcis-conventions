@@ -23,6 +23,7 @@ To denote divisions or offices within a larger entity, begin with the larger ent
    * See [Identifier conventions](https://github.com/USGCRP/gcis-conventions/blob/v1.0.1/gcis_resources/organization.md#identifier-convention) 
    
 **name**: 
+
 Spell out entire organization name, e.g. "National Oceanic and Atmospheric Administration."  Use official name where at all possible, even where it may differ from the entry in a publication.  e.g.,
    * `University of Maryland, College Park` for the University of Maryland (only if referring to main campus)
    * `Indiana University Bloomington` for "University of Indiana" or "Indiana University" (for main Bloomington campus only)
@@ -81,7 +82,7 @@ Spell out entire organization name, e.g. "National Oceanic and Atmospheric Admin
 
 A frequently discussed question pertains to the level at which we denote organizations. Examples include the level of university departments, research groups, Federal agencies, line offices therein, laboratories, etc. Although we aren't consistent, we try to maintain the following conventions:
    * **Universities:** capture departments and colleges if provided
-   * **Agencies:** Capture offices, major divisions, and laboratories. Examples: `http://data.globalchange.gov/organization/us-environmental-protection-agency-office-air-radiation` is one of the main divisions of EPA: `https://data.globalchange.gov/organization/national-center-environmental-assessment` is an entity within the Office of Air and Radiation.
+   * **Agencies:** Capture offices, major divisions, and laboratories. Examples: `https://data.globalchange.gov/organization/us-environmental-protection-agency-office-air-radiation` is one of the main divisions of EPA: `https://data.globalchange.gov/organization/national-center-environmental-assessment` is an entity within the Office of Air and Radiation.
    * However, we don't go more specific with EPA items.
    * We also include affiliations that authors of papers frequently use in their manuscripts even if they don't seem to follow our specific pattern:
    * For NOAA: `https://data.globalchange.gov/organization/earth-system-research-laboratory`,   
@@ -89,7 +90,7 @@ A frequently discussed question pertains to the level at which we denote organiz
       `https://data.globalchange.gov/organization/noaa-national-climatic-data-center` 
    * For the US Forest Service, we stop at the level of the research station, not its underlying field station:`https://data.globalchange.gov/organization/us-forest-service-northern-research-station`
    * For the USDA Agricultural Research System, we include underlying laboratories
-   * Due to various complicated reoganizations that could greatly complicate affiliation tracing, we do not get more specific than NASA flight centers. e.g. `http://data.globalchange.gov/organization/goddard-space-flight-center` and not any "Goddard Space Flight Center Cryospheric Laboratory."  
+   * Due to various complicated reoganizations that could greatly complicate affiliation tracing, we do not get more specific than NASA flight centers. e.g. `https://data.globalchange.gov/organization/goddard-space-flight-center` and not any "Goddard Space Flight Center Cryospheric Laboratory."  
    * This can get complicated though. An affiliation listed as "US Geological Survey, Menlo Park" should be listed in USGS as "US Geological Survey." However, if the affiliation is listed as "US Geological Survey Menlo Park Science Center," the affiliation should be written as
 such and then related accordingly within the USGS hierarchy. This pattern holds for other agencies.
    * And finally, we may break this pattern and get more specific in order to match datasets with those in data.gov.  
