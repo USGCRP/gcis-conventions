@@ -1,3 +1,4 @@
 theme: jekyll-theme-slate
 name: usgcrp
 title: null
+markdown: kramdown
