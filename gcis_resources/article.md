@@ -21,6 +21,7 @@ If the article doesn't have any of these external identifiers, we use the title,
       * **Note:** this will be common practice for articles in law journals, which don't tend to have DOIs
 
 ## Primary Field Conventions
+
 | Field | Description |
 |-------|------------- | 
 |**Title**|Title should match the exact Article title|

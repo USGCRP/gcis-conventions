@@ -9,10 +9,10 @@ document the processes that led to a given research result (Mayernik, et al., 20
 
 ### Title
 
-The Resources title (or name, if no title field) is modified to be come the
+- The Resources title (or name, if no title field) is modified to be come the
 identifier. Spaces are replaced with `-`. All letters are lowercased.
 
-An older convention removed the words `in`, `and`, `&`, `on`, `the`, and `of` from titles. This is no longer preferred.
+- An older convention removed the words `in`, `and`, `&`, `on`, `the`, and `of` from titles. This is no longer preferred.
 
 ### UUID
 
@@ -32,11 +32,11 @@ Some fields have the same value regardless of which resource they appear on. The
 
 ### Sort Key
 
-Items with a sort key tend to be displayed in line with others of that resource type. For example, chapters of a report or authors on an article. 
+- Items with a sort key tend to be displayed in line with others of that resource type. For example, chapters of a report or authors on an article. 
 
-Sort key is handled in ascending order. A resource with sort key 10 will apear about one with 20, which will both be above one with sort key 100.
+- Sort key is handled in ascending order. A resource with sort key 10 will apear about one with 20, which will both be above one with sort key 100.
 
-Whenever external ordering is available, it should be respected. 
+- Whenever external ordering is available, it should be respected. 
 
-This value is not displayed to the end user.
+- This value is not displayed to the end user.
 

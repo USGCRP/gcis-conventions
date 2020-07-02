@@ -14,8 +14,9 @@
 - If the provided raw data is not in a CSV format, we reserve judgement on formatting them on a case by case basis.
 
 ## Field Conventions
+
 | Field | Description |
-|-------|-------------  
+|-------|------------- | 
 |**identifier**|  Automatically created UUIDs.  In the case of multiple arrays per table, we may identifier the array with short, internally distinct identifiers the show which is which.  See the arrays under the [Sea Surface Temp Indicator 2018 Table](https://data-stage.globalchange.gov/report/indicator-sea-surface-temperature-2018/table/indicator-sea-surface-temperature-2018)|
 |**rows_in_header**|  Usually one, indicates how many rows to be ignored as headers, non-data.|
 |**rows** | The actual data, including headers, if any, stored as a database array. Avoid special characters, if possible.|

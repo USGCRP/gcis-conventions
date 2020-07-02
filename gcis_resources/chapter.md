@@ -6,41 +6,21 @@ Chapters are created for USGCRP Products and for external report that are being 
 
 ## Field Conventions
 
-**report_identifier**
-- the GCIS identifier of the report this resource belongs to.  
-
-**title**
-- official published chapter title. 
-- Does not include a subtitle, unless needed for uniqueness. 
-- Doesn't include "Chapter 1:" prefix. 
-- Doesn't include the Report name.
-- See CSSR as exemplar of good title convention.  
-
-**identifier**
-- title of the chapter with dashes in place of the spaces.  
-
-**number**
-- the official published chapter ID, if any. (i.e. 1, 2, 3, A, B, C, i, ii, etc). 
-- Likely blank for chapters like front matter and executive summary.  
-- Does **not** determine chapter ordering. See *sort key*.
-
-**url**
-- The direct URL for the given chapter. 
-- Same as what the chapter DOI, if any, would resolve to. 
-- Blank if chapter does not have its own URL. 
-- Do not use the report URL.  
-
-**sort key**
-- the internal number to make the chapters sort in order.  
-
-**doi**
-- the DOI for the Chapter, if any. Blank if not. Do not use the report DOI.  
+| Field | Description |
+|-------|------------- | 
+|**report_identifier**|<li> The GCIS identifier of the report this resource belongs to. | 
+|**title**|<li> Official published chapter title. <li> Does not include a subtitle, unless needed for uniqueness. <li> Doesn't include "Chapter 1:" prefix.<li> Doesn't include the Report name.<li> See CSSR as exemplar of good title convention.|  
+|**identifier**|<li> Title of the chapter with dashes in place of the spaces.|
+|**number**|<li> The official published chapter ID, if any. (i.e. 1, 2, 3, A, B, C, i, ii, etc). <li> Likely blank for chapters like front matter and executive summary. <li> Does **not** determine chapter ordering. See *sort key*.|
+|**url**|<li>The direct URL for the given chapter. <li> Same as what the chapter DOI, if any, would resolve to. <li> Blank if chapter does not have its own URL. <li> Do not use the report URL. | 
+|**sort key**| <li> The internal number to make the chapters sort in order.|
+|**doi**| <li> the DOI for the Chapter, if any. Blank if not. Do not use the report DOI. | 
 
 ## Provenance Conventions
 
-Chapters use `cito:CitedBy` and `cito:Cites`.  
-Chapters should be created with their internal citations as `cito:Cites`  
-We are generally only concerned with `cito:CitedBy` when it is citations by a future USGCRP product. We do not try to proactively find external citations.  
+- Chapters use `cito:CitedBy` and `cito:Cites`.  
+- Chapters should be created with their internal citations as `cito:Cites`  
+- We are generally only concerned with `cito:CitedBy` when it is citations by a future USGCRP product. We do not try to proactively find external citations.  
 
 ## Relationship Conventions
 
