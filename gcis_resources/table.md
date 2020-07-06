@@ -11,11 +11,11 @@
 
 | Field | Description |
 |-------|------------- | 
-|**identifier**|<li>Short identifier based on the title.|
-|**ordinal**|<li>The numeric position of this table within a chapter. Must start with a number, may contain numbers, letters, dashes, dots and underscores|
-|**title**|<li>The title of the table as it appears in the publication.|
-|**caption**|<li>The visible explanatory text that accompanies the array data in the publication.  <li>When there is a difference in the caption between the print and online tables, we match the online table.|  
-|**url**|<li>Generally not used.  <li>If the Table has a proper, stand alone landing page, it should go here.  |
+|**identifier**|Short identifier based on the title.|
+|**ordinal**|The numeric position of this table within a chapter. Must start with a number, may contain numbers, letters, dashes, dots and underscores|
+|**title**|The title of the table as it appears in the publication.|
+|**caption**|The visible explanatory text that accompanies the array data in the publication.  When there is a difference in the caption between the print and online tables, we match the online table.|  
+|**url**|Generally not used.  If the Table has a proper, stand alone landing page, it should go here.  |
 
 
 ## Provenance Conventions
