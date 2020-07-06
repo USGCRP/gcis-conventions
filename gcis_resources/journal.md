@@ -9,14 +9,14 @@ Some may be created by hand, in those same circumstances, when auto-creation fai
 
 | Field | Description |
 |-------|------------- | 
-|**identifier**|<li>This is based on the title.  <li>When creating a journal, leave the identifier blank such that the system autocreates it without the articles.|  
-|**title**|<li>The title according to crossref.  <li>Fallback to the title on the website or best available source.|
-|**publisher**|<li>Deprecated in favor of the Contributor relationship, role Publisher.  |
-|**country**|<li>Optional.  <li>If filled in, use the country codes as they appear in our Countries table.  <li>Fill in if this improves clarity.|
-|**url**|<li>We strongly want this filled in.  <li>For defunct journals, point to the official archive website, if any.  <li>Can be left blank if no such url is available.  |
-|**notes**|<li>Currently used to capture the provenance connection we can't capture semantically.  <li>No other good use. Do not use.  |
-|**print_issn**|<li>We want to have at least one of the ISSNs.  <li>If there is more than one print ISSN, use the first listed & functional ISSN.|
-|**online_issn**| <li>We want to have at least one of the ISSNs.  <li>If there is more than one online ISSN, use the first listed & functional ISSN.|
+|**identifier**|This is based on the title.  When creating a journal, leave the identifier blank such that the system autocreates it without the articles.|  
+|**title**|The title according to crossref.  Fallback to the title on the website or best available source.|
+|**publisher**|Deprecated in favor of the Contributor relationship, role Publisher.  |
+|**country**|Optional.  If filled in, use the country codes as they appear in our Countries table.  Fill in if this improves clarity.|
+|**url**|We strongly want this filled in.  For defunct journals, point to the official archive website, if any.  Can be left blank if no such url is available.  |
+|**notes**|Currently used to capture the provenance connection we can't capture semantically.  No other good use. Do not use.  |
+|**print_issn**|We want to have at least one of the ISSNs.  If there is more than one print ISSN, use the first listed & functional ISSN.|
+|**online_issn**| We want to have at least one of the ISSNs.  If there is more than one online ISSN, use the first listed & functional ISSN.|
 
 ## Provenance Conventions
 

@@ -19,16 +19,16 @@ Only used on USGCRP published reports, and only exists as a subobject.
 
 | Field | Description |
 |-------|------------- | 
-|**identifier** | <li>Should follow the convention of:`Key-Finding-CH#-ORD`  `Key-Message-CH#-ORD`  <li>The initial part of the identifier should match the naming of this object type for that report|
-|**chapter_identifier** | <li>The chapter, if any, that contains this finding.|
-|**statement** | <li>The shorter, headline sentence that conveys the key information.<li>Filled in via data provided from TSU. Data contained within is provided by the authors following guidance.  <li>HTML Formatting is supported.  <li>Callouts to References should be done via their UUIDs, and captured within `<tbib>` tags.|
-|**ordinal**|  <li>The ordinal as specified in the actual report.|
-|**report_identifier**|  <li>The report that contains this finding.|
-|**process** | <li>Filled in via data provided from TSU. Data contained within is provided by the authors following guidance.  <li>HTML Formatting is supported. <li>Callouts to References should be done via their UUIDs, and captured within `<tbib>` tags.|
-|**evidence**  |<li>Filled in via data provided from TSU. Data contained within is provided by the authors following guidance.  <li>HTML Formatting is supported. <li>Callouts to References should be done via their UUIDs, and captured within `<tbib>` tags.|
-|**uncertainties**|  <li>Filled in via data provided from TSU. Data contained within is provided by the authors following guidance.  <li>HTML Formatting is supported.  <li>Callouts to References should be done via their UUIDs, and captured within `<tbib>` tags.|
-|**confidence** | <li>Filled in via data provided from TSU. Data contained within is provided by the authors following guidance.  <li>HTML Formatting is supported.  <li>Callouts to References should be done via their UUIDs, and captured within `<tbib>` tags.|
-|**url** | <li>If there is a direct URL to the finding, add it here.  <li>Prefer not linking to the general parent page (aka the chapter).  |
+|**identifier** | Should follow the convention of:`Key-Finding-CH#-ORD`  `Key-Message-CH#-ORD`  The initial part of the identifier should match the naming of this object type for that report|
+|**chapter_identifier** | The chapter, if any, that contains this finding.|
+|**statement** | The shorter, headline sentence that conveys the key information.Filled in via data provided from TSU. Data contained within is provided by the authors following guidance.  HTML Formatting is supported.  Callouts to References should be done via their UUIDs, and captured within `<tbib>` tags.|
+|**ordinal**|  The ordinal as specified in the actual report.|
+|**report_identifier**|  The report that contains this finding.|
+|**process** | Filled in via data provided from TSU. Data contained within is provided by the authors following guidance. HTML Formatting is supported. Callouts to References should be done via their UUIDs, and captured within `<tbib>` tags.|
+|**evidence**  |Filled in via data provided from TSU. Data contained within is provided by the authors following guidance. HTML Formatting is supported. Callouts to References should be done via their UUIDs, and captured within `<tbib>` tags.|
+|**uncertainties**| Filled in via data provided from TSU. Data contained within is provided by the authors following guidance. HTML Formatting is supported.  Callouts to References should be done via their UUIDs, and captured within `<tbib>` tags.|
+|**confidence** | Filled in via data provided from TSU. Data contained within is provided by the authors following guidance. HTML Formatting is supported.  Callouts to References should be done via their UUIDs, and captured within `<tbib>` tags.|
+|**url** | If there is a direct URL to the finding, add it here. Prefer not linking to the general parent page (aka the chapter). |
 
 ## Provenance Connections:
 
