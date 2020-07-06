@@ -11,21 +11,21 @@ In the case of supported non-USGCRP Publications, Figures may be created if the 
 
 | Field | Description |
 |-------|-------------| 
-|**identifier**|<li> The title of the figure with hyphens.  <li> May differ if the figure is renamed late in the report process. <li> Generally, we write "US" instead of "United-States"
-|**chapter_identifier**|<li> The associated chapter identifier inside the report, if any, associated with the figure.|
-|**title**|<li> The title of the Figure as set by TSU.  <li> In the case of Figures not from TSU, the title as it appears in the report.|
-|**caption**|<li> Any text appearing alongside the figure.|
-|**attributes**| <li> _deprecated_. <li> Unknown use. Not filled in anywhere.
-|**time_start** **time_end**|<li> The start and end of the temporal extent represented by this figure.  <li> We _prefer_ to have these on the image rather than the figure.|
-|**lat_max** **lat_min** **lon_max** **lon_min**|<li> The nothernmost/southmost latitude & eastmost/westmost longitudes in the bounding box for this figure. <li> We _prefer_ to have these on the image rather than the figure.<li> Future development: https://en.wikipedia.org/wiki/Well-known_text  |
-|**usage_limits**| <li> Copyright restrictions describing how this figure may be used by the general public.  <li> Historically this has not been filled in properly. <li>Needs to come from TSU, but should not be filled in from their usage limits, but rather whether we created it or not.<li> For non-TSU figures, fill in accordingly.    |
-|**submission_dt**|<li> Currently, we think this is the last update before submission.  <li> Followup needed. <li>Final determination to be made after conversation with TSU.  |
-|**create_dt**|<li> Currently, we think this is the initial creation in TSU's system.  <li> Follow-up needed.<li> Final determination to be made after conversation with TSU.|  
-|**source_citation**|<li> If this isn't an original creation, the citation to that.<li> Follow-up: should this be captured in provenance?|
-|**ordinal**|<li> The internal chapter or report numbering <li> (alphanumeric)|
-|**report_identifier**|<li> The associated report identifier the figure.|
-|**url**|<li> Direct URL to the Figure landing page in the associated report, if any.  |
-|**_origination**|<li> Internal field to hold data needed by TSU for presetnation of report websites. <li> Eventually to be phased out via Activity & TSU Sync updates.|
+|**identifier**|The title of the figure with hyphens.  May differ if the figure is renamed late in the report process. Generally, we write "US" instead of "United-States"
+|**chapter_identifier**|The associated chapter identifier inside the report, if any, associated with the figure.|
+|**title**|The title of the Figure as set by TSU.   In the case of Figures not from TSU, the title as it appears in the report.|
+|**caption**| Any text appearing alongside the figure.|
+|**attributes**|  _deprecated_.  Unknown use. Not filled in anywhere.
+|**time_start** **time_end**| The start and end of the temporal extent represented by this figure. We _prefer_ to have these on the image rather than the figure.|
+|**lat_max** **lat_min** **lon_max** **lon_min**| The nothernmost/southmost latitude & eastmost/westmost longitudes in the bounding box for this figure.  We _prefer_ to have these on the image rather than the figure. Future development: https://en.wikipedia.org/wiki/Well-known_text  |
+|**usage_limits**|  Copyright restrictions describing how this figure may be used by the general public.   Historically this has not been filled in properly. Needs to come from TSU, but should not be filled in from their usage limits, but rather whether we created it or not. For non-TSU figures, fill in accordingly.    |
+|**submission_dt**| Currently, we think this is the last update before submission.   Followup needed. Final determination to be made after conversation with TSU.  |
+|**create_dt**| Currently, we think this is the initial creation in TSU's system.   Follow-up needed. Final determination to be made after conversation with TSU.|  
+|**source_citation**| If this isn't an original creation, the citation to that. Follow-up: should this be captured in provenance?|
+|**ordinal**| The internal chapter or report numbering (alphanumeric).|
+|**report_identifier**| The associated report identifier the figure.|
+|**url**| Direct URL to the Figure landing page in the associated report, if any.  |
+|**_origination**| Internal field to hold data needed by TSU for presetnation of report websites. Eventually to be phased out via Activity & TSU Sync updates.|
 
 ## Provenance Conventions
 
