@@ -7,7 +7,11 @@ The custom query tool advances search functionality that goes beyond the limitat
 ## Usage
 
 **Step 1** : To develop a query, first start by specifying the initial publication (for example, “Reports”). Like all other input specifications, this can be done by selecting the relevant data table from the drop-down menu.
+
 **Step 2** : Specify one or more attributes (for example, “identifier”) of the selected table to filter by. Only attributes relevant to the publication selected in Step 1 will be displayed. 
+
 **Step 3** : Select a relationship option for the selected publication (for example, “having”).
+
 **Step 4** : Select a secondary publication to query against (for example, “images”).
+
 **Step 5** : Specify attributes for the WHERE statement in similar fashion as described above. 
