@@ -1,5 +1,5 @@
 ## The GCIS Data Model
-Global change information in the GCIS is structured using the GCIS data model. This data model represents relationships and entities (publications or resources) such as reports, report chapters, figures, images, tables, bibliographic entries, organizations, and people. These entities will, heretofore, be referred to as “resources”, in accordance with GCIS parlance.
+Information in the GCIS is structured using the GCIS data model. This data model is based on  entities such as reports, report chapters, figures, images, tables, bibliographic entries, organizations, and people. These entities will, heretofore, be referred to as “resources”, in accordance with GCIS parlance.
 
 ## GCIS Resources:
 The terminology below describes the resources represented in the GCIS :
@@ -19,6 +19,7 @@ The terminology below describes the resources represented in the GCIS :
 |Instrument|A measuring apparatus. Often associated with one or more platforms via instrument instances. Example: [poseidon-2](https://data.globalchange.gov/instrument/poseidon-2).|
 |Instrument Instance|A platform/instrument combination. It may be associated with one or more datasets. Example: [jason-1/poseidon-2](https://data.globalchange.gov/platform/jason-1/instrument/poseidon-2).|
 |Journals|A publication containing a collection of articles, original research, and conclusions. Generally shorter than a book, peer-reviewed, and released in multiple volumes or periodicals. In GCIS, a journal may have a print and online ISSN, and is uniquely identified within GCIS using a mnemonic identifier (such as climatic-change). Example: [Biogeochemistry](https://data.globalchange.gov/journal/biogeochemistry).|
+|Lexicon|A collection of external database identifiers and vocabularies in GCIS. Example: [ROR](https://data.globalchange.gov/lexicon/ror)|
 |Model|A simulation or projection based on previously gathered data. Models are used to simulate climate systems and create model runs. Example: [ccsm3](https://data.globalchange.gov/model/ccsm3).|
 |Model Run|A unique piece of data ascertained by combining a model, scenario, time range, time resolution, and sequence number. 
 |Organization| A group, such as an institution, agency, or NGO. In GCIS, organizations are uniquely identified by mnemonic identifiers. Example: [us-global-change-research-program](https://data.globalchange.gov/organization/us-global-change-research-program).|
@@ -34,28 +35,41 @@ The terminology below describes the resources represented in the GCIS :
 |Web Page|A single page of a greater website. In GCIS, a web page is assigned a UUID, like [26625ddf-dd19-4dd1-a35d-33c68c5b2d6e](https://data.globalchange.gov/webpage/26625ddf-dd19-4dd1-a35d-33c68c5b2d6e), to identify its state at a particular point in time.|  
 
 
-Climate Science is a complex discipline. Given the amount of data generation and data processing involved, and the use of climate science data in critical decision making, traceable provenance becomes invaluable. The GCIS adopts both a relational model and a semantic model, to maintain traceable provenance for the resources it catalogs. 
+Climate Science is a complex discipline. Given the amount of data generation and data processing involved, and the use of climate science data in critical decision making, traceable origins and relationships, or provenance, becomes invaluable. The GCIS adopts both a relational model and a semantic model, to maintain traceable provenance for the resources it catalogs. 
 
 ![Figure 1](https://raw.githubusercontent.com/USGCRP/gcis-conventions/master/data_model/image2.png) 
 
-**Figure 1**: The GCIS “traceable accounts” model. Each step in this chain is an additional layer of reproducibility, but also a significant increase in the difficulty of capturing and curating.
+**Figure 1**:  The GCIS “traceable accounts” model. Each step in this chain is an additional layer of reproducibility, but also a significant increase in the difficulty of capturing and curating.
+
 
 
 ### Relational Model:
-The relational model used by GCIS captures one-to-many, many-to-many, and many-to-one relationships between the resources listed above. Journals have many articles, reports have many figures, findings, tables, and chapters. The relationship between images and figures, is many-to-many, as is the relationship between resources or publications of any type  and contributors. 
+The relational model used by GCIS captures one-to-many, many-to-many, and many-to-one relationships between the resources listed above. For example, journals have many articles, reports have many figures, findings, tables, and chapters. The relationship between images and figures is many-to-many, as is the relationship between resources or publications of any type  and contributors. 
+ 
 
 ![Figure 2](https://raw.githubusercontent.com/USGCRP/gcis-conventions/master/data_model/image5.png)
 **Figure 2**: A representation of the GCIS relational model.
 
 ### Semantic Model:
 
-Resources may also be related to each other, and in this case, the relationship between two resources can be annotated with a term from a semantic vocabulary. Furthermore, the relationship may have an “activity” associated with it. All GCIS resources have representations in Turtle (a semantic format for storing data). The GCIS vocabulary is defined in the GCIS ontology. Many other ontologies are used including, most notably PROV. The entity-activity-agent model of PROV has been applied to the GCIS through the use of resources, activities, and contributors.
+Resources may also be related to each other, and in this case, the relationship between two resources can be annotated with a term from a semantic vocabulary. Furthermore, the relationship may have an “activity” associated with it. Many ontologies are used including, most notably [PROV](https://www.w3.org/ns/prov). The entity-activity-agent model of PROV has been applied to the GCIS through the use of resources, activities, and contributors. 
+Current semantic relationships used include :
+- prov:wasDerivedFrom
+- cito:cites
+- prov:wasInformedBy
+- dct:isReplacedBy
+- dct:replaces
+- cito:isCitedBy
+- prov:wasGeneratedBy
+
+
 
 ![Figure 3](https://raw.githubusercontent.com/USGCRP/gcis-conventions/master/data_model/image31.png)
 
 **Figure 3**: A representation of the GCIS semantic model. 
 
-As illustrated above, the GCIS data model leverages widely recognized conventions and standards. Almost every GCIS resource conforms to existing international standards. However, in unique instances where established conventions are non-existent, the GCIS team develops its own conventions.
+As illustrated above, the GCIS data model leverages widely recognized conventions and standards. Almost every GCIS resource conforms to existing international standards. However, in unique instances where established conventions are non-existent, the GCIS team develops its own conventions (e.g. dataset and activity identifiers).
+
 
 
 
