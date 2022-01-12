@@ -18,5 +18,5 @@
 - [DOI](./DOI.md)  
 - [ROR](./ROR.md)  
 - [ORCID](./ORCID.md)
-- [WorldCat](./ORCID.md)
+- [WorldCat](./Worldcat.md)
  
