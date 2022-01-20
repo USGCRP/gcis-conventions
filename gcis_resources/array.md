@@ -38,11 +38,5 @@ It is plausible to have a good use case for an array to use cito:cites.
 `table`  
 Arrays should always belong to a Table. The relationship is generally added through the Table object. Multiple arrays are added in their original order.
 
-## Research Method:
-- Filled in via data provided from TSU
-- Header Values may be cleaned up for proper importing into GCIS.
-- Data values should not be changed. If they are for any reason, it should be noted in the Table caption.
-- If the provided raw data has seemingly extraneous data (i.e. totals not displayed in the published work), we reserve judgement on including them on a case by case basis. All data published in the final published Table or Graphic should be included.
-- We try not to upload CSVs to create arrays, but instead paste in well formatted data.
-- If the provided raw data is not in a CSV format, we reserve judgement on formatting them on a case by case basis.
+
 
