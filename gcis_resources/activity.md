@@ -44,3 +44,7 @@ None
 ## Relationship Conventions:
 
 - Associated with two other publications (one parent, one child) as the process of going from one to the other.
+
+## Research Method:
+- Activities in the GCIS are directly imported from the GDAS system. Both databases use similar conventions to display Activities, making syncing easy. Nevertheless, the GCIS team performs quality assurance tasks on every synced Activity to ensure strict compliance with established conventions.
+
