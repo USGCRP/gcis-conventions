@@ -22,6 +22,10 @@ Dataset has many extraneous or problamatic fields. Create with caution.
 |**release_dt**| The date on which this version of this dataset was released.|
 |**publication_year**| The date on which this dataset was initially published, regardless of version.|
 |**description_attribution**| A URL which contains the description of this dataset given in the description field. If same as URL, duplicate URL here.|
+|**report_id**|the GCIS id of the report this resource belongs to.|
+|**chapter_id**|the GCIS id of the report this resource belongs to.|
+
+
 
 
 ### Soft Deprecated Fields
@@ -66,16 +70,22 @@ Datasets use `prov:wasDerivedFrom`, where a figure "prov:wasDerivedFrom" a datas
 
 ## Relationship Conventions
 
-**contributors**
- - datasets should have their owner organiation linked to them via a contributor.
+**Contributors**
+ - Datasets should have their owner organiation linked to them via a contributor.
  - Normally via the `data_archive` role.
 
-**files**
- - historically Datasets have sometimes had a jpg associated with them. 
- - not required
+**Files**
+ - Historically Datasets have sometimes had a jpg associated with them. 
+ - Not required
 
-**gcmd_keywords**
+**Report**
+ - Dataset  may belong to a Report or Indicator. 
+ 
+**Chapter**
+ - Dataset  may belong to a Chapter, if the Report is broken into Chapters and the dataset  is within them. 
+
+**GCMD_ Keywords**
  - not to be used for the moment. To be determined.
  
-**regions**
+**Regions**
  - not to be used.
