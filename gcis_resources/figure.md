@@ -75,3 +75,5 @@ In the case of supported non-USGCRP Publications, Figures may be created if the 
 
   - All figures should have a high resolution image file associated with it. 
   - Preference for PNG for vector-like graphics and JPG for photo-like graphics.
+## Note:
+Although indicators have been migrated to figures and are no longer reports, they sit under an empty parent report for each year called “indicators-{year}” . For example, visiting ‘/report/indicators-2018/’ will show you a list of all indicators (figures) for the year 2018.
