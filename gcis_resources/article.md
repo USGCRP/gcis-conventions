@@ -4,6 +4,7 @@
 
 The article resource type in GCIS is used to represent articles referenced in USGCRP reports. This means that each article in the GCIS is used as a reference in a USGCRP report.
 
+
 ## Identifier Convention
 
 An article's [DOI](../external_conventions/doi.md) is used as the identifier when it is available.  
@@ -16,7 +17,7 @@ If the article doesn't have any of these external identifiers, we use the title,
       * http://data.globalchange.gov/article/10.1002/aqc.880
    * For an article without a DOI, but has a PubMed ID of [pmid-22377962](https://data.globalchange.gov/article/pmid-22377962)
       * https://data.globalchange.gov/article/pmid-22377962
-   * Since this article doesn't have a doi or other acceptable external identifier, we use the title.
+   * For an article without a doi or other acceptable external identifier:
       * http://data.globalchange.gov/article/resilience-adaptability-and-transformability-in-socialecological-systems
       * **Note:** this will be common practice for articles in law journals, which don't tend to have DOIs
 
@@ -44,15 +45,14 @@ If the article doesn't have any of these external identifiers, we use the title,
 
 ### Contributors
 
-We connect Persons & Organizations to Articles with the follow conventions:
+Persons and Organizations are connected to Articles with the following conventions:
   * **Role Types**
     * author is the assumed role
     * point of contact role is used for specified corresponding author
     * other roles are not used unless they are called out in the article
   * [sort key](https://github.com/USGCRP/gcis-conventions/blob/master/gcis_resources/Defaults.md#sort-key) should be used to match the article's order
  
-In cases of articles with hundreds of authors, some editors, & a point of contact. Only editors & PoC are added.
-
+In cases of articles with hundreds of authors, some editors, and a point of contact, just the editors and point of contact  are added.
 ### gcmd_keywords
 Not to be used at this time.
 ### regions
