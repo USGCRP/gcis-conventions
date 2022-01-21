@@ -2,8 +2,7 @@
 
 ## Appropriate Journal Use Case
 
-Journals are generally populated automatically when Articles are imported from the EndNote.  
-Some may be created by hand, in those same circumstances, when auto-creation fails.  
+Journal objects are created in the GCIS to improve the traceable accounts of articles cited in USGCRP reports. Therefore, every article in GCIS must have a corresponding journal where possible. 
 
 ## Field Conventions
 
@@ -19,6 +18,7 @@ Some may be created by hand, in those same circumstances, when auto-creation fai
 |**online_issn**| We want to have at least one of the ISSNs.  If there is more than one online ISSN, use the first listed & functional ISSN.|
 
 ## Provenance Conventions
+- None
 
 
 ## Relationship Conventions
@@ -34,15 +34,15 @@ Some may be created by hand, in those same circumstances, when auto-creation fai
 
 **Files** 
 
-An exemplar image of an issue of the Journal, pulled from their website.
+- An exemplar image of an issue of the Journal, pulled from their website.
 
 **gcmd_keywords**
 
-Not used on this object.
+- Not used on this object.
 
 **regions**
 
-Not yet implemented.
+- Not yet implemented.
 
 ## Unresolved Conventions
 
