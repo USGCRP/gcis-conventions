@@ -2,8 +2,8 @@
 
 ## Use Case
 
-- To be attached to the USGCRP Assessments in support of search and navigation.  
-- Can be added for other publications that specify regions.  
+- The Regions resource type in GCIS represents the geographical regions described in USGCRP reports.
+  
 
 ## Field Conventions
 
