@@ -8,7 +8,6 @@
 - References may or may not be evergreen, depending on the base type of the cited publication.  
 e.g. A published Article or Report is probably evergreen, but a website definitely isn't.  
 
-**TODO**: Discuss more with TSU to coordinate non-evergreen reference types, and how to make sure they get distinct references per report.
 
 ## Field Conventions
 
