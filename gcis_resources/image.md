@@ -2,14 +2,13 @@
 
 ## Appropriate Image Use Case
 
-Images should only exist underneath Figures.
-All Figures should have at least one Image.
+- Images should only exist underneath Figures.All Figures should have at least one Image.
 
-For reports done in conjunction with the TSU, the Images should be imported alongside their Figures, or filled in where needed following the pattern they use.
+- For reports done in conjunction with the TSU, the Images should be imported alongside their Figures, or filled in where needed following the pattern they use.
 
-For reports not done with TSU, we may create Images.
+- For reports not done with TSU, we may create Images.
 
-Images for Figures with just one panel should be the full Figure (i.e. the same as the image file attached on the Figure record). Images for Figures with multiple panels should be reconstructed from their Figure to contain all relevant information (i.e. labels, legend, etc) rather than simply cropped. If no other option, cropped is better than nothing.
+- Images for Figures with just one panel should be the full Figure (i.e. the same as the image file attached on the Figure record). Images for Figures with multiple panels should be reconstructed from their Figure to contain all relevant information (i.e. labels, legend, etc) rather than simply cropped. If no other option, cropped is better than nothing.
 
 ## Field Conventions
 
@@ -35,13 +34,13 @@ Images for Figures with just one panel should be the full Figure (i.e. the same 
 
 **cito:cites**  
 
-Generally the Figure object will be the thing using cito:cites.  
-It is plausible to have a good use case for an image to use cito:cites.
+- Generally the Figure object will be the thing using cito:cites.  
+- It is plausible to have a good use case for an image to use cito:cites.
 
 **prov:wasDerivedFrom**
 
-Image is preferred to be the child to `wasDerivedFrom` as opposed to the Figure.  
-Many types of publication can be the parent type.  
+- Image is preferred to be the child to `wasDerivedFrom` as opposed to the Figure.  
+- Many types of publication can be the parent type.  
 
 ## Relationship Conventions
 
@@ -50,17 +49,23 @@ Many types of publication can be the parent type.
 - Generally, Figures and Image tend to be one-to-one.  
 - It is acceptable if two Figures use the same component images, they may use the same Image object.
 
-**gcmd_keyword**
+**GCMD Keyword**
 
-Not yet implemented, but probably better applied to Figures.
+- Not yet implemented, but probably better applied to Figures.
 
-**region**
+**Region**
 
-Not yet implemented.
+- Not yet implemented.
 
-**file**
+**File**
 
-Should have a file with the type best suited to its image type. High quality images strongly preferred.
+- Should have a file with the type best suited to its image type. High quality images strongly preferred.
+
+**Report:**
+- Image  may belong to a Report or Indicator.
+
+**Chapter:**
+- Image  may belong to a Chapter, if the Report is broken into Chapters and the image is within them.
 
 ## Unresolved Conventions
 
