@@ -7,7 +7,7 @@ The article resource type in GCIS is used to represent articles referenced in US
 
 ## Identifier Convention
 
-An article's [DOI](../external_conventions/doi.md) is used as the identifier when it is available.  
+An article's [DOI](../external_conventions/DOI.md) is used as the identifier when it is available.  
 Acceptable fall-back identifiers we will use include [PMID](https://www.ncbi.nlm.nih.gov/pmc/pmctopmid/), [PMC](https://www.ncbi.nlm.nih.gov/pmc/pmctopmid/), and [CDC MMWR](https://www.cdc.gov/mmwr/about.html).
 
 If the article doesn't have any of these external identifiers, we use the title, with hyphens between words, lowercase letters, no numbers. We do not remove any words.
