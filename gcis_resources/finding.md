@@ -2,18 +2,8 @@
 
 ## Use Case
 
-What is a Finding?  
-In USGCRP Reports, every chapter has a "Key Message" - a short statement of fact with backing supporting evidence.  
-Only used on USGCRP published reports, and only exists as a subobject.
+In USGCRP Reports, every chapter has a "Key Message" - a short statement of fact with backing supporting evidence. Only used on USGCRP published reports, and only exists as a subobject.
 
-## TODO
-
- - Ask TSU for their guidance for the fields:
-    + evidence
-    + statement
-    + process
-    + uncertainty
-    + confidence
 
 ## Field Breakdown
 
