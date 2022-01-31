@@ -2,7 +2,7 @@
 
 ## Appropriate Image Use Case
 
-- Images should only exist underneath Figures.All Figures should have at least one Image.
+- Images should only exist underneath Figures. All Figures should have at least one Image.
 
 - For reports done in conjunction with the TSU, the Images should be imported alongside their Figures, or filled in where needed following the pattern they use.
 
@@ -15,20 +15,25 @@
 | Field | Description |
 |-------|------------- |
 |**identifier**| Standard UUID identifier.|
-|**position**| This is more of a nice-to-have. Not a focus for filling in.Indicator Images do not have Titles.|
-|**title**|     Usually imported directly from TSU.Indicator Images do not have Titles.Images should incorporate the Title of their Figure in their Title, plus a relevant distinctive postfix.|
-|**description**|   Imported from TSU, if one exists.We do not attempt to fill this in otherwise.|
-|**attributes**|    Imported from TSU, if any exists.  For Indicators, filled in if provided.Otherwise, not filled in.|
-|**time_start**|  Existing definition fine.  Should match the activity that created it, if any.Blank is okay if irrelevant.If dates aren't exactly specified, they are assumed the earliest possible (i.e. 2017 is 2017-01-01, June 2017 is 2017-06-01). Same for time.|
-|**time_end**|      Existing definition fine.  Should match the activity that created it, if any.Blank is okay if irrelevant.If dates aren't exactly specified, they are assumed the latest possible (i.e. 2017 is 2017-12-31, June 2017 is 2017-06-30). Same for time.|
-|**lat_max**|       Existing definition fine.  Should correlate with the activity that created it, if any.Blank is okay if irrelevant.|
-|**lat_min**|       Existing definition fine.  Should correlate with the activity that created it, if any.Blank is okay if irrelevant.|
-|**lon_max**|       Existing definition fine.  Should correlate with the activity that created it, if any.Blank is okay if irrelevant.|
-|**lon_min**|       Existing definition fine.  Should correlate with the activity that created it, if any.Blank is okay if irrelevant.|
-|**usage_limits**|  Existing definition fine.  Should come from the source of the Figure.  Be certain before filling in; this should be the limits on usage for a public user, not the limits on USGCRP's use of the image.|
-|**submission_dt**| Currently, we think this is the last update before submission.*Followup needed.*|
-|**create_dt**|     Currently, we think this is the initial creation in TSU's system.*Follow-up needed.*|
+|**position**| This is more of a nice-to-have. Not a focus for filling in. Indicator Images do not have Titles.|
+|**title**|     Usually imported directly from TSU. Indicator Images do not have Titles. Images should incorporate the Title of their Figure in their Title, plus a relevant distinctive postfix.|
+|**description**|   Imported from TSU, if one exists. We do not attempt to fill this in otherwise.|
+|**attributes**|    Imported from TSU, if any exists. For Indicators, filled in if provided. Otherwise, not filled in.|
+|**time_start**|  Should match the activity that created it, if any. Blank is okay if irrelevant. If dates aren't exactly specified, they are assumed the earliest possible (i.e. 2017 is 2017-01-01, June 2017 is 2017-06-01). Same for time.|
+|**time_end**|      Should match the activity that created it, if any. Blank is okay if irrelevant. If dates aren't exactly specified, they are assumed the latest possible (i.e. 2017 is 2017-12-31, June 2017 is 2017-06-30). Same for time.|
+|**lat_max**|       Should correlate with the activity that created it, if any. Blank is okay if irrelevant.|
+|**lat_min**|       Should correlate with the activity that created it, if any. Blank is okay if irrelevant.|
+|**lon_max**|       Should correlate with the activity that created it, if any. Blank is okay if irrelevant.|
+|**lon_min**|       Should correlate with the activity that created it, if any. Blank is okay if irrelevant.|
+|**usage_limits**|  Should come from the source of the Figure.  Be certain before filling in; this should be the limits on usage for a public user, not the limits on USGCRP's use of the image.|
+|**submission_dt**| Currently, we think this is the last update before submission. *Followup needed.*|
+|**create_dt**|     Currently, we think this is the initial creation in TSU's system. *Follow-up needed.*|
 |**url**|           Not used.|
+|**report_id**|the GCIS id of the report this resource belongs to.|
+|**chapter_id**|the GCIS id of the chapter this resource belongs to.|
+
+
+
 
 ## Provenance Conventions
 
