@@ -29,9 +29,9 @@ If the article doesn't have any of these external identifiers, we use the title,
 |**DOI**|The exact DOI, if one exists. Otherwise blank.|
 |**Year**|The year the article was published, as in the year this volume of the journal came out.|
 |**Notes**|Not In Use.  May be used in the future for extraordinary circumstances, i.e. journal retractions.|
-|**Journal**|Should refer to the GCIS Journal entity corresponding to the article's Journal.Should never be blank.|
+|**Journal**|Should refer to the GCIS Journal entity corresponding to the article's Journal. Should never be blank.|
 |**URL**|Should always be provided if we don't have a DOI.  Preferred to have regardless.  In the case of neither a DOI nor a URL existing, may be left blank.|
-|**journal vol**|Which volume of the Journal this article was published from.| Sourced from crossref.org, not from the corresponding imported reference.|
+|**journal vol**|Which volume of the Journal this article was published from. Sourced from crossref.org, not from the corresponding imported reference.|
 |**journal pages** |Which pages of the journal this article occurs at.  Preferred to be a page range. Initial page is acceptable. Sourced from crossref.org, not from the corresponding imported reference.|
 
 ## Provenance Conventions
