@@ -1,4 +1,4 @@
-# Table Conventions
+# GCIS Table Conventions
 
 ## Appropriate Use Case
 
