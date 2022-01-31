@@ -4,7 +4,7 @@
 
 Datasets are created in GCIS when cited by Reports, Figures, Tables, etc.  
 A dataset should be unique per version.  
-Dataset has many extraneous or problamatic fields. Create with caution.
+Dataset has many extraneous or problematic fields. Create with caution.
 
 ## Field Conventions
 
