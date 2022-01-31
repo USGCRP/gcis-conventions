@@ -25,7 +25,7 @@ Created automatically.
     + currently does not show on html, hence we use the middle name or middle initial in the "`first_name`" field (UPDATE upon completion of https://github.com/USGCRP/gcis/issues/298)
   - `last_name`
     + The person's last-name, including if it's hyphenated
-    + Note that sometimes first and last names may be flipped in publications (common with many non-US author
+    + Note that sometimes first and last names may be flipped in publications (common with many non-US authors)
   - `orcid`
     + The person's ORCiD (see http://orcid.org)
     + If not information is available on the person's ORCiD page to definitvely attribute something to that person, leave the field blank.  This situation occurs very commonly when people do not leave identifying information on their ORCiD pages.  Hence, it is possible that someone else with the same name created that ORCiD.
