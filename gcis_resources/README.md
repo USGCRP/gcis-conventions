@@ -30,6 +30,12 @@ The conventions, together with the use case associated with each GCIS resource t
 
 [Finding](./finding.md)
 
+[GCIS Model](./gcis_model.md)
+
+[GCIS Model Run](./gcis_model_run.md)
+
+[GCIS Table](./gcis_table.md)
+
 [Image](./image.md)
 
 [Instrument](./instrument.md)
@@ -39,10 +45,6 @@ The conventions, together with the use case associated with each GCIS resource t
 [Journal](./journal.md)
 
 [Lexicon](./lexicon.md)
-
-[Model](./model.md)
-
-[Model_run](./model_run.md)
 
 [Organization](./organization.md)
 
@@ -57,8 +59,6 @@ The conventions, together with the use case associated with each GCIS resource t
 [Report](./report.md)
 
 [Scenario](./scenario.md)
-
-[Table](./table.md)
 
 [Web_page](./web_page.md)
 
