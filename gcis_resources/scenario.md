@@ -2,7 +2,9 @@
 
 ## Appropriate Use Case
 
-- We do not actively create or curate scenarios. Scenarios are currently thin objects only associated with Models.
+- The Scenario resource type currently captures common IPCC Climate scenarios used in climate science.
+- We do not actively create or curate scenarios. 
+- Scenarios are currently thin objects only associated with Models.
 
 - We will leave these objects alone for the time being, neither focusing on filling them in nor deprecating them.
 

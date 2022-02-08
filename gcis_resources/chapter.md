@@ -2,7 +2,8 @@
 
 ## Appropriate Chapter Use Case
 
-Chapters are created for USGCRP Products and for external report that are being cited in GCIS a large number of times at a chapter specificity. See the CSSR and the IPCC reports, respectively.
+Chapters are created for USGCRP Products and for external reports that are being cited in GCIS a large number of times at a chapter specificity. 
+
 
 ## Field Conventions
 
@@ -54,11 +55,4 @@ Chapters are created for USGCRP Products and for external report that are being 
 **regions**
  - not to be used.
 
-## Unresolved Conventions
 
-### Published Stand-alone Chapters
-   
-   - What to do for report chapters that are also available as separately published reports (i.e. CSSR ch Executive Summary & The CSSR Executive Summary PDF), **that also specify distinct citations**?
-       - should we have both publications (chapter version & report version) in gcis?
-       - should both have a DOI, and should they be distinct?
-       - Discussion Issue [#19](https://github.com/USGCRP/gcis-conventions/issues/19)

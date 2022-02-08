@@ -2,22 +2,21 @@
 
 ## Appropriate Use Case:
 
-Activities should be created to connect components of USGCRP reports to the source publication it was created from, in order to convey the process of creating the asset.
+Activities are created to connect components of USGCRP reports to the source publication it was created from, in order to convey the process of creating the asset. For example, an Activity can link
 
-i.e.  
-- Image back to its dataset  
-- Array back to its dataset  
-- Figure back to its Article  
+- An Image back to its dataset.  
+- An Array back to its dataset. 
+- A Figure back to its Article. 
 
-We do not create them for non-USGCRP products.
+Activities are not created for  non-USGCRP products.
 
 
 ## Field Conventions:
 
 | Field | Description |
-| ------------- | ------------- |
-|**identifier**|  The format of the activity identifier going forward should follow the template: "`report_identifier`-`UUID`-`activity`". We may go back and update non-compliant activities, but it is not a priority.|
-|**methodology**| The process of creating the resulting object from the input, in the author’s own words and in such a way that another expert partycould reproduce the output.|
+|-------|------------- | 
+|**identifier**|  The format of the activity identifier going forward should follow the template: "report_identifier-UUID-activity"|
+|**methodology**| The process of creating the resulting object from the input, in the author’s own words and in such a way that another expert party could reproduce the output.|
 |**visualization_methodology**|  The process of creating the visual portion of the output object, if any and if distinguished from the main methodology.|
 |**methodology_citation**|  The citation to the methodology, if it has been published.|
 |**methodology_contact**|  The point of contact for the methodology, if any.|
@@ -46,4 +45,6 @@ None
 
 ## Relationship Conventions:
 
-Associated with two other publications (one parent, one child) as the process of going from one to the other.
+- Associated with two other publications (one parent, one child) as the process of going from one to the other.
+
+

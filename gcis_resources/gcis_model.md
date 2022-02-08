@@ -1,4 +1,4 @@
-# Model Conventions
+# GCIS Model Conventions
 
 ## Appropriate Use Case
 

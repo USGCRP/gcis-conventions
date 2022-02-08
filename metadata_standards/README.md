@@ -8,16 +8,16 @@ GCIS makes use of external identifiers such as Digital Object Identifiers ([DOI]
 GCIS utilizes [W3C](https://www.w3.org/Consortium/) provenance to represent some relationships inside the GCIS. In particular, GCIS utilizes [PROV-O](https://www.w3.org/TR/prov-overview/) and [CiTO](http://purl.org/spar/cito) verbs.
 
 ## Technology:
-GCIS is written in Perl using the Mojolicious web framework, the Rose::DB Database interface, and many other fine modules from the [CPAN](https://www.cpan.org/). It relies on [PostgreSQL](https://www.postgresql.org/about/) for data storage.
+GCIS is written in [Ruby](https://www.ruby-lang.org/en/about/#:~:text=Ruby%20is%20a%20language%20of,functional%20programming%20with%20imperative%20programming) using the [Ruby on Rails](https://guides.rubyonrails.org/) web framework, the [Active Record Database](https://guides.rubyonrails.org/active_record_basics.html) interface, as well as the Vue.js frontend library. It relies on [PostgreSQL](https://www.postgresql.org/about/) for data storage.
 
 Map inserts are supported by [OpenStreetMap](https://www.openstreetmap.org/about) data with [MapBox](https://www.mapbox.com/about/) tiles and implementation through [LeafletJS](https://leafletjs.com/).
 
 ## Data Export Formats:
-GCIS offers a multitude of human- and machine-readable data export formats, defaulting with the [HTML](https://html.spec.whatwg.org/multipage/) pages. Publication pages can be downloaded as [JSON](https://www.json.org/json-en.html) and [YAML](https://yaml.org/) data, the semantic formats [Turtle](https://www.w3.org/TR/turtle/), [N-Triples](https://www.w3.org/TR/n-triples/), [JSON Triples](https://www.w3.org/wiki/JSON_Triple_Sets), [RDF+XML](https://www.w3.org/TR/rdf-syntax-grammar/), and [RDF+JSON](https://www.w3.org/TR/rdf-json/), and visual representations in [Graphviz](http://graphviz.org/), and [SVG](https://www.w3.org/Graphics/SVG/) of the semantic mapping. Additionally, the data Array(s) behind Table Publications may be downloaded as [CSV](https://tools.ietf.org/html/rfc4180). List pages can be downloaded as JSON, YAML, or CSV formatted data.
+GCIS offers a multitude of human- and machine-readable data export formats, defaulting with the [HTML](https://html.spec.whatwg.org/multipage/) pages. Publication and list (index) pages can be downloaded as [JSON](https://www.json.org/json-en.html) and [YAML](https://yaml.org/) or [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) data.
 
 ## Metadata Quality Characteristics observed in the GCIS:
-The Harvard Law School characterizes metadata as “[electronic fingerprints](https://hls.harvard.edu/dept/its/what-is-metadata/)”, that aid the searchability of documents or online resources. Therefore, good metadata records provide users with enough information to understand and (or) locate the object that the record is about.
-There is no shortage of qualities that make metadata records “good”. Nevertheless, GCIS metadata records strongly align with the following quality characteristics:
+The Harvard Law School characterizes metadata as “[electronic fingerprints](https://hls.harvard.edu/dept/its/what-is-metadata/)”, that aid the searchability of documents or online resources. Therefore, good metadata records provide users with enough information to understand and (or)  locate the object described in the record.
+There is a range of f qualities that make metadata records “good”. Nevertheless, GCIS metadata records strongly align with the following quality characteristics:
 
 - **Completeness** : Is there enough information to facilitate findability?
 - **Conformance**: Do metadata records abide by established standards?

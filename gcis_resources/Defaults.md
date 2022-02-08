@@ -3,14 +3,11 @@
 ## Identifier Conventions
 
 ### Introduction  
-Assigning citable, unique and persistent identifiers to information held within the GCIS greatly increases the transparency and traceability of that
-information as well as addressing a growing trend within the Federal research community: requiring researchers to formally cite the data and
-document the processes that led to a given research result (Mayernik, et al., 2012).
+Assigning citable, unique and persistent identifiers to information held within the GCIS greatly increases the transparency and traceability of that information as well as addressing a growing trend within the Federal research community: requiring researchers to formally cite the data and document the processes that led to a given research result (Mayernik, et al., 2012).
 
 ### Title
 
-- The Resources title (or name, if no title field) is modified to be come the
-identifier. Spaces are replaced with `-`. All letters are lowercased.
+- The Resources title (or name, if no title field) is modified to become the identifier. Spaces are replaced with “-”. All letters are lowercase.
 
 - An older convention removed the words `in`, `and`, `&`, `on`, `the`, and `of` from titles. This is no longer preferred.
 

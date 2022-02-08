@@ -35,7 +35,9 @@ It is plausible to have a good use case for an array to use cito:cites.
 
 ## Relationships
 
-`table`  
-Arrays should always belong to a Table.  
-The relationship is generally added through the Table object.  
-If there are multiple arrays, add them in a sane order.  
+**table**
+
+Arrays should always belong to a Table. The relationship is generally added through the Table object. Multiple arrays are added in their original order.
+
+
+
